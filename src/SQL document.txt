@@ -1,0 +1,13 @@
+SQL command:
+--------------------------
+for create:-
+------------
+create table Employee(Email varchar2(40) unique not null,Password varchar2(30) not null,Emp_id Number(20) not null,Name varchar2(20) not null,Post varchar2(30) not null,Salary Number(30) not null);
+
+for insert:-
+------------
+Insert into Employee values('John_lee@ip.co','12345',5432,'John lee','Marketing Director',140000);
+Insert into Employee values('jing_she@ip.co','12345',5433,'jing she','Chief secretary',130000);
+Insert into Employee values('laber_dow@ip.co','12345',5434,'laber dow','HR',90000);
+Insert into Employee values('Chin_lee@ip.co','12345',5435,'Chin lee','Finance Head',170000);
+Insert into Employee values('Reck_martin@ip.co','12345',5436,'Reck martin','Md',300000);
